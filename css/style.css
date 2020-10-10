@@ -50,6 +50,7 @@ body {
   z-index: 1;
   display: flex;
   align-items: flex-end;
+  transition: all 0.5s ease-in-out;
 }
 .block1:after {
   content: "";
@@ -76,6 +77,7 @@ body {
   z-index: 1;
   display: flex;
   align-items: flex-end;
+  transition: all 0.5s ease-in-out;
 }
 .block2:after {
   content: "";
@@ -102,6 +104,7 @@ body {
   z-index: 1;
   display: flex;
   align-items: flex-end;
+  transition: all 0.5s ease-in-out;
 }
 
 .block3:after {
@@ -181,13 +184,10 @@ a {
 
 .block1:hover {
   transform: scaleY(1.1);
-  transition: all 0.5s ease-in-out;
 }
 .block2:hover {
   transform: scaleY(1.1);
-  transition: all 0.5s ease-in-out;
 }
 .block3:hover {
   transform: scaleY(1.1);
-  transition: all 0.5s ease-in-out;
 }
