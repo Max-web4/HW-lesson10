@@ -133,6 +133,7 @@ body {
   color: aliceblue;
   text-transform: uppercase;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .date {
